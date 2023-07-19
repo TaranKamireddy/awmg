@@ -3,7 +3,7 @@ import placeholder from "../images/finance-hero.png";
 export default function Home() {
   return(
     <>
-      <div class="bruh">
+      <div className="bruh">
         <h1>American Wealth Management Group</h1>
         <img src={placeholder}></img>
       </div>
