@@ -7,7 +7,6 @@ body {
 }
 
 .container {
-  margin: 1rem;
   text-align: center;
 }
 
@@ -50,6 +49,20 @@ body {
   background-color: #777;
 }
 
-.bruh {
-  background-color: #777;
+.header h1{
+  position: absolute;
+  left: 0;
+  right: 0;
+  align-items: center;
+}
+
+.header img {
+  width: 100%
+}
+
+.statement {
+  background-color: aqua
+}
+.statement p {
+  font-size: 150%;
 }
