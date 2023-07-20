@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+  margin:0; 
+  padding:0;
+  /* The margin and padding might screw things up in the future */
 }
 
 body {
@@ -53,7 +56,6 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  align-items: center;
 }
 
 .header img {
@@ -61,8 +63,19 @@ body {
 }
 
 .statement {
-  background-color: aqua
+  position: relative;
+  left: 0;
+  right: 0;
+  background-color: aqua;
 }
+
 .statement p {
   font-size: 150%;
+}
+
+.section {
+  position: relative;
+  left: 0;
+  right: 0;
+  background-color: red;
 }
