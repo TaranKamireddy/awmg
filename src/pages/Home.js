@@ -1,8 +1,8 @@
-import placeholder from "../images/finance-hero.png"; 
+import placeholder from "../images/finance-hero.png"
 
 export default function Home() {
   return(
-    <div>
+    <>
       <div className="header">
         <h1>American Wealth Management Group</h1>
         <img src={placeholder} alt="" draggable="false"></img>
@@ -14,6 +14,6 @@ export default function Home() {
       <div className="section">
         <h1>Pls join our company</h1>
       </div>
-    </div>
+    </>
   );
 }

@@ -58,8 +58,11 @@ body {
   right: 0;
 }
 
-.header img {
-  width: 100%
+.header img{
+  width: 100%;
+  left: 0;
+  right: 0;
+  display: block;
 }
 
 .statement {
