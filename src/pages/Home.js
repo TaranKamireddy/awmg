@@ -3,9 +3,9 @@ import placeholder from "../images/finance-hero.png"
 export default function Home() {
   return(
     <>
-      <div className="header">
+      <div className="header" style={{ backgroundColor:"blue", backgroundImage:`url(${placeholder})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:"center",height:"85vh"}}>
         <h1>American Wealth Management Group</h1>
-        <img src={placeholder} alt="" draggable="false"></img>
+        {/* <img src={placeholder} alt="" draggable="false"></img> */}
       </div>
       <div className="statement">
         <h1>Discover AWMG</h1>
