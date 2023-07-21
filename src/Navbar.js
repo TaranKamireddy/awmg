@@ -9,7 +9,7 @@ export default function Navbar() {
       </Link>
       <ul>
         <CustomLink to="/pricing">Pricing</CustomLink>
-        <CustomLink to="/about">About</CustomLink>
+        <CustomLink to="/about">About Us</CustomLink>
       </ul>
     </nav>
   )

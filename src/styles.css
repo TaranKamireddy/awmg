@@ -100,3 +100,21 @@ body {
   right: 0;
   background-color: red;
 }
+
+.aboutPage {
+}
+
+.profiles {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: blue;
+  border-radius: 10%;
+  width: 20%;
+}
+
+.profilesHorizontal {
+  align-items: center;
+  justify-content: center;
+  display: flex; 
+  flex-direction: row;
+}
