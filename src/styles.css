@@ -7,7 +7,6 @@
   margin:0; 
   padding:0;
   font-family: Roboto;
-  /* The margin and padding might screw things up in the future */
 }
 
 @font-face {
@@ -15,7 +14,7 @@
   src: local('Roboto'), url(./fonts/Roboto/Roboto-Regular.ttf) format('truetype');
 }
 
-body {
+.body {
   margin: 0;
 }
 
@@ -30,7 +29,7 @@ body {
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center;
-  height:70vh;
+  height:85vh;
   width:100%;
 }
 

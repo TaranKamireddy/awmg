@@ -1,3 +1,11 @@
+import "./Pricing.css"
+
 export default function Pricing() {
-  return <h1>Pricing</h1>
+  return (
+    <>
+      <div className = "main">
+        <h1>Pricing</h1>
+      </div>
+    </>
+  );
 }
