@@ -1,4 +1,4 @@
-import Profile from "../componenets/Profile.js"
+import Profiles from "../components/Profile.js"
 
 export default function About() {
   return (
