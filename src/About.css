@@ -1,0 +1,37 @@
+.aboutPage {
+    background: linear-gradient(45deg, #0D2E63, #003B9F, #005eff,  #015EE2, #276FE6, #6A9CF1);
+    padding: 2%; 
+    
+  }
+  
+  .aboutPage h1{
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  
+  .profile {
+    margin: 4%;
+
+  }
+  
+  .profile img{
+    width: 100%;
+  }
+  
+  .profileHorizontal {
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    flex-direction: row;
+  }
+
+  .profile button{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border: none; 
+    margin: 0; 
+    padding: 0; 
+  }
+  
