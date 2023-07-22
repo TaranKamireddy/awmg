@@ -1,4 +1,4 @@
-import testFace from "./images/testFace.png"
+import testFace from "../images/testFace.png"
 import { useState } from "react";
 
 export default function Profiles() {
