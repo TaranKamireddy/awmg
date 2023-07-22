@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: local('Roboto'), url(./Fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+  src: local('Roboto'), url(./fonts/Roboto/Roboto-Regular.ttf) format('truetype');
 }
 
 body {
@@ -102,14 +102,20 @@ body {
 }
 
 .aboutPage {
+  background:linear-gradient(rgba(0,0,255,1),transparent);
+  
 }
 
 .profiles {
   margin-left: 5%;
   margin-right: 5%;
-  background-color: blue;
-  border-radius: 10%;
+  background-color: white;
   width: 20%;
+}
+
+.profiles img{
+  width: 100%;
+  border-radius: 10%
 }
 
 .profilesHorizontal {
