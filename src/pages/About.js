@@ -1,5 +1,5 @@
 import Profile from "../components/Profile.js"
-import "../About.css"
+import "./About.css"
 
 export default function About() {
   return (
