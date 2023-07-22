@@ -1,3 +1,7 @@
+/* 
+  #0D2E63, #003B9F, #005eff,  #015EE2, #276FE6, #6A9CF1
+*/ 
+
 * {
   box-sizing: border-box;
   margin:0; 
@@ -102,7 +106,7 @@ body {
 }
 
 .aboutPage {
-  background:linear-gradient(rgba(0,0,255,1),transparent);
+  background:linear-gradient(#005eff  , #FFFFFF);
   
 }
 
