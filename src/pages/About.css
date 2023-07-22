@@ -1,8 +1,48 @@
 .aboutPage {
-    background: linear-gradient(45deg, #0D2E63, #003B9F, #005eff,  #015EE2, #276FE6, #6A9CF1);
-    padding: 2%; 
-    
+    margin: 0;
+    padding: 0; 
+    background: linear-gradient(45deg, #0D2E63, #003B9F, #276FE6, #6A9CF1);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
   }
+
+  @-webkit-keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+  }
+
+  @-moz-keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+  }
+
+  @keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+}
   
   .aboutPage h1, h2{
     color: white;
@@ -19,6 +59,7 @@
   .profile img{
     width: 100%;
     border-radius: 5%;
+    box-shadow: 2px 2px 9px #000000; 
   }
 
   
@@ -35,6 +76,7 @@
     height: 50px; 
     border: none; 
     border-radius: 15%;
+    box-shadow: 3px 3px 10px #000000; 
   }
 
   .profile button:hover{

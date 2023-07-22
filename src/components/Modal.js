@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Modal() {
   return (
-    <div>Modal</div>
+    <div className='modalContainer'>
+      <div>Modal</div>
+    </div>
   )
 }
