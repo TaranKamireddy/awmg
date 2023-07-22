@@ -1,13 +1,13 @@
-import Profiles from "../Profiles.js"
+import Profile from "../componenets/Profile.js"
 
 export default function About() {
   return (
     <div className="aboutPage">
-      <h1>About</h1>
-      <div className="profilesHorizontal">
-        <Profiles></Profiles>
-        <Profiles></Profiles>
-        <Profiles></Profiles>
+      <h1>About us</h1>
+      <div className="profileHorizontal">
+        <Profile></Profile>
+        <Profile></Profile>
+        <Profile></Profile>
       </div>
     </div>
   )
