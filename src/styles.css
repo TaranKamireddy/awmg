@@ -1,5 +1,5 @@
 /* 
-  #0D2E63, #003B9F, #005eff,  #015EE2, #276FE6, #6A9CF1
+  #0D2E63, #003B9F, #015EE2, #276FE6, #6A9CF1
 */ 
 
 * {
@@ -25,7 +25,7 @@ body {
 }
 
 .nav {
-  background-color: #0021ff;
+  background-color: #003B9F;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -68,14 +68,26 @@ body {
 }
 
 .nav li:hover {
-  background-color: #19288a;
+  background-color: #0D2E63;
+}
+
+.header {
+  position: relative;
+  background-image: url(./images/finance-hero.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  height:70vh;
+  width:100%;
 }
 
 .header h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
-  position: relative;
-  left: 0;
-  right: 0;
+
 }
 
 .header img{
@@ -90,7 +102,7 @@ body {
   position: relative;
   left: 0;
   right: 0;
-  background-color: aqua;
+  background-color: #015EE2;
 }
 
 .statement p {
@@ -102,12 +114,14 @@ body {
   position: relative;
   left: 0;
   right: 0;
-  background-color: red;
+  background-color: #276FE6;
 }
 
 .aboutPage {
-  background:linear-gradient(#005eff  , #FFFFFF);
-  
+  background:linear-gradient(0.125turn, #003B9F  , #6A9CF1);
+  /* background: linear-gradient(217deg, rgba(255,0,0,.8), rgb(255, 166, 0, 0.1) 70.71%),
+  linear-gradient(127deg, rgba(0,255,0,.8), rgba(255, 255, 0, 0.1) 70.71%),
+  linear-gradient(336deg, rgba(0,0,255,.8), rgba(165,0,255,0.1) 70.71%); */
 }
 
 .profiles {
