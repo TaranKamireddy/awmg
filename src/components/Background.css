@@ -30,9 +30,9 @@
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
   animation: cube 15s forwards infinite;
 }
-undefined
+
 .background li:nth-child(0) {
-  animation-delay: 0s;
+  animation-delay: 0.1s;
   left: 75vw;
   top: 65vh;
 }
@@ -94,7 +94,7 @@ undefined
 }
 
 .background li:nth-child(10) {
-  animation-delay: 20s;
+  animation-delay: 0.3s;
   left: 80vw;
   top: 57vh;
 }
@@ -107,7 +107,7 @@ undefined
 }
 
 .background li:nth-child(12) {
-  animation-delay: 24s;
+  animation-delay: 0s;
   left: 56vw;
   top: 45vh;
   border-color: #0046d4;
@@ -159,7 +159,7 @@ undefined
 }
 
 .background li:nth-child(20) {
-  animation-delay: 40s;
+  animation-delay: 0.2s;
   left: 86vw;
   top: 53vh;
   border-color: #0046d4;
@@ -212,7 +212,7 @@ undefined
 }
 
 .background li:nth-child(28) {
-  animation-delay: 56s;
+  animation-delay: 0.1s;
   left: 63vw;
   top: 50vh;
   border-color: #0046d4;
@@ -250,7 +250,7 @@ undefined
 }
 
 .background li:nth-child(34) {
-  animation-delay: 68s;
+  animation-delay: 0s;
   left: 98vw;
   top: 5vh;
   border-color: #0046d4;
@@ -282,7 +282,7 @@ undefined
 }
 
 .background li:nth-child(39) {
-  animation-delay: 78s;
+  animation-delay: 0.4s;
   left: 29vw;
   top: 31vh;
   border-color: #0046d4;

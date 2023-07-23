@@ -1,5 +1,9 @@
 /* 
+  Color Palette:
   #0D2E63, #003B9F, #015EE2, #276FE6, #6A9CF1
+
+  Font Paypal Uses (goated for white backgrounds):
+  #001c64
 */ 
 
 * {
@@ -14,11 +18,11 @@
   src: local('Roboto'), url(./fonts/Roboto/Roboto-Bold.ttf) format('truetype');
 }
 
-.body {
-  margin: 0;
+@font-face {
+  font-family: HelveticaN;
+  src: url(./fonts/Helvetica/Helvetica\ NeueLTW0693BlkExtObl/Helvetica\ NeueLTW0693BlkExtObl.ttf) format('truetype');
 }
 
 .container {
   text-align: center;
-  background-color: black;
 }

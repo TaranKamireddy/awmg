@@ -7,7 +7,6 @@ export default function Home() {
       <Background/>
       <div className="header">
         <h1>American Wealth Management Group</h1>
-        {/* <img src={placeholder} alt="" draggable="false"></img> */}
       </div>
       <div className="statement">
         <h1>Discover AWMG</h1>
