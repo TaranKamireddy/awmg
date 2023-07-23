@@ -4,7 +4,7 @@
   padding: 0; 
   box-sizing: border-box;
   border: none;
-  background: linear-gradient(45deg, #0D2E63, #003B9F, #276FE6, #6A9CF1);
+  background: linear-gradient(45deg, #003B9F, #276FE6, #6A9CF1, #c5ddff);
   background-size: 400% 400%;
   -webkit-animation: Gradient 10s ease infinite;
   -moz-animation: Gradient 10s ease infinite;
@@ -47,14 +47,14 @@
   }
 }
 
-.aboutPage h1, h2{
+.aboutPage h1, h2, h3{
   color: white;
-  margin-bottom: 1%;
 }
 
 .title h1{
   color: white;
   padding-top: 1%;
+  margin-bottom: 1%;
 }
 
 .profile { 
