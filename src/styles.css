@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: local('Roboto'), url(./fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+  src: local('Roboto'), url(./fonts/Roboto/Roboto-Bold.ttf) format('truetype');
 }
 
 .body {
@@ -22,50 +22,3 @@
   text-align: center;
   background-color: black;
 }
-
-.header {
-  position: relative;
-  background-image: url(./images/finance-hero.png);
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:center;
-  height:85vh;
-  width:100%;
-}
-
-.header h1{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-
-}
-
-.header img{
-  width: 100%;
-  left: 0;
-  right: 0;
-  display: block;
-}
-
-.statement {
-  color: white;
-  position: relative;
-  left: 0;
-  right: 0;
-  background-color: #015EE2;
-}
-
-.statement p {
-  font-size: 150%;
-}
-
-.section {
-  color: white;
-  position: relative;
-  left: 0;
-  right: 0;
-  background-color: #276FE6;
-}
-

@@ -1,8 +1,10 @@
-import placeholder from "../images/finance-hero.png"
+import "./Home.css"
+import Background from "../components/Background"
 
 export default function Home() {
   return(
     <>
+      <Background/>
       <div className="header">
         <h1>American Wealth Management Group</h1>
         {/* <img src={placeholder} alt="" draggable="false"></img> */}

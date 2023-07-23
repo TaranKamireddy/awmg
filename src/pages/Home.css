@@ -1,0 +1,37 @@
+.header {
+  /* background-image: url(../images/finance-hero.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  height:85vh; */
+  width:100%;
+}
+
+.header h1{
+  position: absolute;
+  font-size: 500%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+}
+
+.statement {
+  color: white;
+  position: relative;
+  left: 0;
+  right: 0;
+  background-color: #015EE2;
+}
+
+.statement p {
+  font-size: 150%;
+}
+
+.section {
+  color: white;
+  position: relative;
+  left: 0;
+  right: 0;
+  background-color: #276FE6;
+}
