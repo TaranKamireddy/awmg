@@ -57,10 +57,21 @@
   margin-bottom: 1%;
 }
 
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%); 
+  }
+  to {
+    transform: translateY(0); 
+  }
+}
+
 .profile { 
   margin: 4%;
   width: 30%;
   height: 30%; 
+  animation: slideDown 2s ease 
+
 }
 
 .profile img{
@@ -83,6 +94,7 @@
   border: none; 
   border-radius: 15%;
   box-shadow: 3px 3px 10px #000000; 
+  transition: background-color 0.3s ease 0s; 
 }
 
 .profile button:hover{
