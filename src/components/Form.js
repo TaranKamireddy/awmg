@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/41b24320-2a61-11ee-9907-0b23fd627d84";
 
-const ContactForm = () => {
+const Form = () => {
   const [submitted, setSubmitted] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();

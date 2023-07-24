@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
-import Pricing from "./pages/Pricing"
+import Contact from "./pages/Contact"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import { Route, Routes } from "react-router-dom"
