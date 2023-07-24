@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="footer">
       <ul>
-        <CustomLink to="/pricing">Pricing</CustomLink>
+        <CustomLink to="/contact">Contact Us</CustomLink>
         <CustomLink to="/about">About Us</CustomLink>
       </ul>
     </nav>

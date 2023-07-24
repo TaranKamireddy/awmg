@@ -9,7 +9,7 @@ export default function Navbar() {
         <img src={logo} alt="logo" draggable="false"></img>
       </Link>
       <ul>
-        <CustomLink to="/pricing">Pricing</CustomLink>
+        <CustomLink to="/contact">Contact Us</CustomLink>
         <CustomLink to="/about">About Us</CustomLink>
       </ul>
     </nav>
