@@ -12,6 +12,7 @@
 }
 
 .statement {
+  height: 50vh;
   color: white;
   position: relative;
   left: 0;
@@ -19,14 +20,38 @@
   background-color: #015EE2;
 }
 
-.statement p {
+.statement h1{
+  position: absolute;
+  font-size: 300%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #001c64;
+}
+
+.statement p{
+  position: absolute;
   font-size: 150%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #001c64;
 }
 
 .section {
+  height:50vh;
   color: white;
   position: relative;
   left: 0;
   right: 0;
   background-color: #276FE6;
+}
+
+.section h1{
+  position: absolute;
+  font-size: 300%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
 }

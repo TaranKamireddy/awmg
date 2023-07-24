@@ -1,5 +1,6 @@
 import "./Home.css"
 import Background from "../components/Background"
+import Contact from "../components/Contact"
 
 export default function Home() {
   return(
@@ -14,6 +15,10 @@ export default function Home() {
       </div>
       <div className="section">
         <h1>Pls join our company</h1>
+      </div>
+        <Contact/>
+      <div>
+
       </div>
     </>
   );
