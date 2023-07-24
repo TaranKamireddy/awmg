@@ -59,7 +59,7 @@
 
 @keyframes slideDown {
   from {
-    transform: translateY(-5%); 
+    transform: translateY(2%); 
     opacity: 0.5;
   }
   to {
@@ -72,7 +72,7 @@
   margin: 4%;
   width: 30%;
   height: 30%; 
-  animation: slideDown 1.5s ease forwards;
+  animation: slideDown 0.5s ease forwards;
 }
 
 .profile img{
