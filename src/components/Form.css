@@ -1,0 +1,48 @@
+.input {
+  position: relative; 
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem; 
+  padding-left: 0.75rem;
+  padding-right: 0.75rem; 
+  border-radius: 0.25rem; 
+  border-width: 0; 
+  outline-style: none; 
+  width: 100%; 
+  font-size: 0.875rem;
+  line-height: 1.25rem; 
+  color: #4B5563; 
+  background-color: #ffffff; 
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0), 0 1px 2px 0 rgba(0, 0, 0); 
+}
+
+.box {
+  padding-top: 0;
+  margin-bottom: 0.75rem; 
+}
+
+.submit {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem; 
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; 
+  margin-right: 0.25rem; 
+  margin-bottom: 0.25rem; 
+  border-radius: 0.25rem; 
+  outline-style: none; 
+  font-size: 0.875rem;
+  line-height: 1.25rem; 
+  font-weight: 700; 
+  color: white; 
+  text-transform: uppercase; 
+  background-color: #001c64; 
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms; 
+  transition-duration: 150ms; 
+  transition-timing-function: linear; 
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); 
+}
+
+.submit:hover {
+ box-shadow: 0 10px 15px -3px rgb(0, 0, 0), 0 4px 6px -2px rgb(0, 0, 0); 
+}

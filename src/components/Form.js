@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Form.css"
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/41b24320-2a61-11ee-9907-0b23fd627d84";
 
@@ -52,17 +53,17 @@ const ContactForm = () => {
       onSubmit={handleSubmit}
       method="POST"
     >
-      <div>
-        <input type="text" placeholder="Your name" name="name" required />
+      <div className="box">
+        <input className="input" type="text" placeholder="Your name" name="name" required />
       </div>
-      <div>
-        <input type="email" placeholder="Email" name="email" required />
+      <div className="box">
+        <input className="input" type="email" placeholder="Email" name="email" required />
       </div>
-      <div>
-        <textarea placeholder="Your message" name="message" required />
+      <div className="box">
+        <textarea className="input" placeholder="Your message" name="message" required />
       </div>
-      <div>
-        <button type="submit"> Send a message </button>
+      <div className="box">
+        <button className="submit" type="submit"> Send a message </button>
       </div>
     </form>
   );

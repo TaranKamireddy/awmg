@@ -1,7 +1,19 @@
 .main {
-  color: #001c64;
+  padding: 1.5rem 1.5rem;
+  color: white;
+  background-color: #001c64;
+}
+
+.main h1{
+  font-size: 300%;
 }
 
 .main h2{
   color: inherit;
+}
+
+.form {
+  background-color: white;
+  padding: 1.5rem 1.5rem;
+  margin: 1.5rem 40rem; 
 }
