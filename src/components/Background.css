@@ -17,14 +17,14 @@
   left: 0;
   margin: 0;
   padding: 0;
-  background: #ffffff;
+  background: #001c64;
   overflow: hidden;
 }
 .background li {
   position: relative;
   width: 10px;
   height: 10px;
-  border: solid 1px #0039ad;
+  border: solid 1px white;
   color: transparent;
   transform-origin: top left;
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
