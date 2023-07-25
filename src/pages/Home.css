@@ -12,30 +12,40 @@
 }
 
 .statement {
-  height: 50vh;
   color: white;
+  background-color: white;
+  height: 50vh;
   position: relative;
-  left: 0;
-  right: 0;
-  background-color: #015EE2;
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
 }
 
-.statement h1{
-  position: absolute;
+.statement-text {
+  background-color: #001c64;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.statement-text h1{
   font-size: 300%;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #001c64;
+  color: inherit;
 }
 
-.statement p{
-  position: absolute;
+.statement-text p{
   font-size: 150%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #001c64;
+  color: inherit;
+}
+
+.statement-image {
+  background-color: white;
+  display:flex;
+  justify-content: center;
+}
+
+.statement-image {
+  margin: 1.5rem 1.5rem
 }
 
 .section {
