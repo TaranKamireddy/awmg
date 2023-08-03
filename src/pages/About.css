@@ -4,55 +4,15 @@
   padding: 0; 
   box-sizing: border-box;
   border: none;
-  background: linear-gradient(45deg, #003B9F, #276FE6, #6A9CF1, #c5ddff);
-  background-size: 400% 400%;
-  -webkit-animation: Gradient 10s ease infinite;
-  -moz-animation: Gradient 10s ease infinite;
-  animation: Gradient 10s ease infinite;
-}
-
-@-webkit-keyframes Gradient {
-  0% {
-  background-position: 0% 50%
-  }
-  50% {
-  background-position: 100% 50%
-  }
-  100% {
-  background-position: 0% 50%
-  }
-}
-
-@-moz-keyframes Gradient {
-  0% {
-  background-position: 0% 50%
-  }
-  50% {
-  background-position: 100% 50%
-  }
-  100% {
-  background-position: 0% 50%
-  }
-}
-
-@keyframes Gradient {
-  0% {
-  background-position: 0% 50%
-  }
-  50% {
-  background-position: 100% 50%
-  }
-  100% {
-  background-position: 0% 50%
-  }
+  background: #F5F7FA;
 }
 
 .aboutPage h1, h2, h3{
-  color: white;
+  color: black;
 }
 
 .title h1{
-  color: white;
+  color: black;
   padding-top: 1%;
   margin-bottom: 1%;
 }
@@ -69,15 +29,15 @@
 }
 
 .profile { 
-  margin: 4%;
-  width: 30%;
+  margin: 3%;
+  width: 20%;
   height: 30%; 
   animation: slideDown 0.5s ease forwards;
 }
 
 .profile img{
-  width: 100%;
-  border-radius: 5%;
+  width: 500px; 
+  height: 500px; 
   box-shadow: 2px 2px 9px #000000; 
 }
 
