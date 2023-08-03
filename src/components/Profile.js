@@ -2,6 +2,7 @@ import { useState } from "react"
 import { FaPlus } from "react-icons/fa";
 import "../pages/About.css"
 import Modal from 'react-modal';
+import { AspectRatio } from 'react-aspect-ratio';
 
 export default function Profile({openModal, modalIsOpen, afterOpenModal, closeModal, name, description, image, position}) {
 
