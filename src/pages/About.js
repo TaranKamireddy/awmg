@@ -25,12 +25,13 @@ export default function About() {
   return (
     <div className="aboutPage">
       <div className="title">
-        <h1>About us</h1>
+        <h1>Team Section</h1>
         <h3>We're a small, closely-knit group of people based in Northern Virginia. We've been in business for over 3 years.</h3>
       </div>
       <div className="profileHorizontal">
         <Profile openModal={openModal}  modalIsOpen={modalIsOpen} afterOpenModal={afterOpenModal} closeModal={closeModal} name="Taran Kamireddy" position="Vice President" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit" image={testFace}></Profile>
-
+        <Profile openModal={openModal}  modalIsOpen={modalIsOpen} afterOpenModal={afterOpenModal} closeModal={closeModal} name="Taran Kamireddy" position="Vice President" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit" image={testFace}></Profile>
+        <Profile openModal={openModal}  modalIsOpen={modalIsOpen} afterOpenModal={afterOpenModal} closeModal={closeModal} name="Taran Kamireddy" position="Vice President" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit" image={testFace}></Profile>
       </div>
     </div>
     
