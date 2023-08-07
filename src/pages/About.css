@@ -29,16 +29,19 @@
 }
 
 .profile { 
-  margin: 3%;
+  background-color: #FFFFFF;
+  margin: 2%;
   width: 20%;
   height: 30%; 
   animation: slideDown 0.5s ease forwards;
+  align-items: center;
+  justify-items: center;
 }
 
-.profile img{
-  width: 500px; 
-  height: 500px; 
-  box-shadow: 2px 2px 9px #000000; 
+.profile img { 
+  object-fit: cover;
+  height: 40vh;
+  width: 100%;
 }
 
 .profileHorizontal {
@@ -49,20 +52,23 @@
 }
 
 .profile button{
-  background-color: white;
-  width: 50px;
-  height: 50px; 
+  background-color: black;
+  width: 45px;
+  margin-top: 2%;
+  margin-right: 4%; 
+  height: 45px; 
   border: none; 
   border-radius: 15%;
-  box-shadow: 3px 3px 10px #000000; 
   transition: background-color 0.3s ease 0s; 
+  align-self: flex-start;
 }
 
 .profile button:hover{
-  background-color: rgba(150, 150, 150);
+  background-color: #2474D6;
 }
 
 .verticalText {
+  margin: 3%; 
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -72,4 +78,9 @@
   display: flex; 
   justify-content: space-between;
   align-items: center;
+}
+
+.modal {
+  align-content: center;
+  justify-content: center;
 }
