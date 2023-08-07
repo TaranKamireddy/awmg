@@ -6,7 +6,7 @@ export default function Profile({openModal, modalIsOpen, afterOpenModal, closeMo
 
   return (
     <div className="profile">
-        <img src={image} />
+        <img src={image} alt=""/>
         <div className="test">
           <div className="verticalText">
             <h1>{name}</h1>
