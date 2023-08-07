@@ -1,0 +1,62 @@
+  .title h1{
+    color: black;
+    padding-top: 1%;
+    margin-bottom: 1%;
+  }
+  
+  .ServiceBox { 
+    background-color: #f50000a7;
+    margin: 2%;
+    width: 20%;
+    height: 30%; 
+    animation: slideDown 0.5s ease forwards;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .box img { 
+    object-fit: cover;
+    height: 40vh;
+    width: 100%;
+  }
+  
+  .profileHorizontal {
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    flex-direction: row;
+  }
+  
+  .box button{
+    background-color: black;
+    width: 45px;
+    margin-top: 2%;
+    margin-right: 4%; 
+    height: 45px; 
+    border: none; 
+    border-radius: 15%;
+    transition: background-color 0.3s ease 0s; 
+    align-self: flex-start;
+  }
+  
+  .profile button:hover{
+    background-color: #2474D6;
+  }
+  
+  .verticalText {
+    margin: 3%; 
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .test {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modal {
+    align-content: center;
+    justify-content: center;
+  }

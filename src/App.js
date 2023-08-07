@@ -4,6 +4,8 @@ import Contact from "./pages/Contact"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import StockData from "./pages/StockData"
+import Services from "./pages/Services"
+import Resources from "./pages/Resources"
 import { Route, Routes } from "react-router-dom"
 
 function App() {
@@ -16,7 +18,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/stock" element={<StockData />} />
-          {/* <Route path="/services" element={<Services />} /> */}
+          <Route path="/services" element={<Services />} />
+          <Route path="/resources" element={<Resources />} />
         </Routes>
       </div>
       <Footer />

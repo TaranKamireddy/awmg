@@ -13,6 +13,12 @@ export default function Navbar() {
                 <a className="navbar-text" href="/stock">Stocks</a>
               </div>
               <div className="navbar-link">
+                <a className="navbar-text" href="/services">Services</a>
+              </div>
+              <div className="navbar-link">
+                <a className="navbar-text" href="/resources">Resources</a>
+              </div>
+              <div className="navbar-link">
                 <a className="navbar-text" href="/about">About</a>
               </div>
               <div className="navbar-button">
