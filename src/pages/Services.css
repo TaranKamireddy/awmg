@@ -14,7 +14,7 @@
     justify-items: center;
   }
   
-  .box img { 
+  .ServiceBox img { 
     object-fit: cover;
     height: 40vh;
     width: 100%;
@@ -27,7 +27,7 @@
     flex-direction: row;
   }
   
-  .box button{
+  .ServiceBox button{
     background-color: black;
     width: 45px;
     margin-top: 2%;
