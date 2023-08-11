@@ -13,20 +13,72 @@ import insurance from "../images/insurance.svg"
 
 
 export default function Services() {
+
+  const retirementPlanning = {
+    img : retirement,
+    description : "I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time.",
+    name : "Retirement Planning"
+  };
+  const financialPlanning = {
+    img : financial, 
+    description : "I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time.",
+    name : "Financial Planning"
+  };
+  const collegePlanning = {
+    img : college, 
+    description : "I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time.",
+    name : "College Savings Planning"
+  }; 
+  const estatePlanning = {
+    img : house, 
+    description : "I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time.",
+    name : "Estate Planning"
+  }; 
+  const investmentManagement = {
+    img : stocks, 
+    description : "I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time.",
+    name : "Investment Management"
+  };
+  const portfolioManagement = {
+    img : portfolio, 
+    description : "I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time.",
+    name : "Portfolio Management"
+  };
+  const taxPlanning = {
+    img : tax, 
+    description : "I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time.",
+    name : "Tax Planning"
+  };
+  const insuranceAnalysis = {
+    img : insurance, 
+    description : "I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time.",
+    name : "Insurance Analysis"
+  };
+  const businessPlanning = {
+    img : business, 
+    description : "I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time.",
+    name : "Business Financial Services"
+  };
+  const riskAnalysis = {
+    img : car, 
+    description : "I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time. I be geeking all the time.",
+    name : "Risk Analysis"
+  };
+
   return(
     <div className="page">
       <h1>Services</h1>
       <div className="rows">
-        <ServiceBox img={retirement} name="Retirement Planning"></ServiceBox>
-        <ServiceBox img={financial} name="Financial Planning"></ServiceBox>
-        <ServiceBox img={college} name="College Savings Planning"></ServiceBox>
-        <ServiceBox img={house} name="Estate Planning"></ServiceBox>
-        <ServiceBox img={stocks} name="Investment Management"></ServiceBox>
-        <ServiceBox img={portfolio} name="Portfolio Management"></ServiceBox>
-        <ServiceBox img={tax} name="Tax Planning"></ServiceBox>
-        <ServiceBox img={insurance} name="Insurance Analysis"></ServiceBox>
-        <ServiceBox img={business} name="Business Financial Services"></ServiceBox>
-        <ServiceBox img={car} name="Risk Analysis"></ServiceBox>
+        <ServiceBox object={retirementPlanning}></ServiceBox>
+        <ServiceBox object={financialPlanning}></ServiceBox>
+        <ServiceBox object={collegePlanning}></ServiceBox>
+        <ServiceBox object={estatePlanning}></ServiceBox>
+        <ServiceBox object={investmentManagement}></ServiceBox>
+        <ServiceBox object={portfolioManagement}></ServiceBox>
+        <ServiceBox object={taxPlanning}></ServiceBox>
+        <ServiceBox object={insuranceAnalysis}></ServiceBox>
+        <ServiceBox object={businessPlanning}></ServiceBox>
+        <ServiceBox object={riskAnalysis}></ServiceBox>
       </div>
     </div>
   );

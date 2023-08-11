@@ -6,6 +6,7 @@ import About from "./pages/About"
 import News from "./pages/News"
 import Services from "./pages/Services"
 import Resources from "./pages/Resources"
+import ServicePage from "./pages/ServicePage"
 import { Route, Routes } from "react-router-dom"
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/news" element={<News />} />
           <Route path="/services" element={<Services />} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/servicepage" element={<ServicePage />} />
         </Routes>
       </div>
       <Footer />
