@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import News from "./News.js"
+import News from "./Stock_News.js"
 import "./StockNews.css"
 
 const Api = () => {
