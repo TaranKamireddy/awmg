@@ -1,62 +1,48 @@
+  .page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
   .title h1{
     color: black;
     padding-top: 1%;
     margin-bottom: 1%;
   }
-  
-  .ServiceBox { 
-    background-color: #f50000a7;
-    margin: 2%;
-    width: 20%;
-    height: 30%; 
-    animation: slideDown 0.5s ease forwards;
-    align-items: center;
-    justify-items: center;
-  }
-  
-  .ServiceBox img { 
-    object-fit: cover;
-    height: 40vh;
-    width: 100%;
-  }
-  
-  .profileHorizontal {
-    align-items: center;
-    justify-content: center;
-    display: flex; 
-    flex-direction: row;
-  }
-  
-  .ServiceBox button{
-    background-color: black;
-    width: 45px;
-    margin-top: 2%;
-    margin-right: 4%; 
-    height: 45px; 
-    border: none; 
-    border-radius: 15%;
-    transition: background-color 0.3s ease 0s; 
-    align-self: flex-start;
-  }
-  
-  .profile button:hover{
-    background-color: #2474D6;
-  }
-  
-  .verticalText {
-    margin: 3%; 
+
+  .rows {
     display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  
-  .test {
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .modal {
-    align-content: center;
+    max-width: 80%;
     justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
   }
+
+  .boxes {
+    display: flex;
+    padding: 12px;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; 
+    border-radius: 10px;
+    background-color: #E4EBF3;
+  }
+  
+  .boxes img { 
+    object-fit: cover; 
+    width: 300px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 10px;
+  }
+
+  .horizontal {
+    margin-top: 10px; 
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: space-between;
+  }
+  
