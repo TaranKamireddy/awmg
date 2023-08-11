@@ -3,7 +3,7 @@ import Footer from "./components/Footer"
 import Contact from "./pages/Contact"
 import Home from "./pages/Home"
 import About from "./pages/About"
-import StockData from "./pages/StockData"
+import News from "./pages/News"
 import Services from "./pages/Services"
 import Resources from "./pages/Resources"
 import { Route, Routes } from "react-router-dom"
@@ -17,7 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
-          <Route path="/stock" element={<StockData />} />
+          <Route path="/news" element={<News />} />
           <Route path="/services" element={<Services />} />
           <Route path="/resources" element={<Resources />} />
         </Routes>

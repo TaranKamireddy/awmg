@@ -1,7 +1,4 @@
-// let doc = new DOMParser().parseFromString(stock.content, "text/xml");
-//             console.log(doc.firstChild.innerHTML);
-
-import "./News.css"
+import "./Stock_News.css"
 
 function News({title, date, content, img, link, symbl}) {
   return (
