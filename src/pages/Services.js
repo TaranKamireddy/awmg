@@ -1,5 +1,5 @@
 import ServiceBox from "../components/ServiceBox"
-import testFace from "../images/testFace.png"
+// import testFace from "../images/testFace.png"
 import car from "../images/car.svg"
 import house from "../images/house.svg"
 import college from "../images/college.svg"

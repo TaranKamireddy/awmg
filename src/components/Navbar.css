@@ -2,10 +2,10 @@
   #0D2E63, #003B9F, #015EE2, #276FE6, #6A9CF1
 */ 
 
-@font-face {
+/* @font-face {
   font-family: 'Inter';
   src: local('Inter'), url(../fonts/Inter/Inter-Regular.ttf) format('truetype');
-}
+} */
   
 .navbar {
   width: 100%;

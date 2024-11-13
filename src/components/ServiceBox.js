@@ -5,7 +5,7 @@ export default function ServiceBox({object}) {
 
   return (
     <div className="boxes">
-        <img src={object.img}></img>
+        <img src={object.img} alt=""></img>
         <div className="horizontal">
           <h3>{object.name}</h3>
           <a href="/servicepage"><FaArrowUp/></a>

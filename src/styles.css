@@ -13,7 +13,7 @@
   font-family: Roboto;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Roboto';
   src: local('Roboto'), url(./fonts/Roboto/Roboto-Bold.ttf) format('truetype');
 }
@@ -21,7 +21,7 @@
 @font-face {
   font-family: HelveticaN;
   src: url(./fonts/Helvetica/Helvetica\ NeueLTW0693BlkExtObl/Helvetica\ NeueLTW0693BlkExtObl.ttf) format('truetype');
-}
+} */
 
 .container {
   text-align: center;

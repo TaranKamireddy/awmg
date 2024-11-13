@@ -2,10 +2,10 @@
   #0D2E63, #003B9F, #015EE2, #276FE6, #6A9CF1
 */ 
 
-  @font-face {
+  /* @font-face {
     font-family: 'Roboto';
     src: local('Roboto'), url(../fonts/Roboto/Roboto-Regular.ttf) format('truetype');
-  }
+  } */
   
   .footer {
     background-color: #003B9F;
